@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid #333;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .block {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .red {
+            background-color: #ff5555;
+        }
+
+        .green {
+            background-color: #55ff55;
+        }
+
+        .yellow {
+            background-color: #ffff55;
+        }
+    </style>
+    <title>Colored Blocks</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <div class="block red"></div>
+        <div class="block green"></div>
+        <div class="block yellow"></div>
+    </div>
 </body>
 
 </html>
